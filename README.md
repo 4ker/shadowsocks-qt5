@@ -1,6 +1,18 @@
 Shadowsocks-Qt5
 ===============
 
+装了 Anaconda，可能你的 qmake 就不是 qt5 的了，会出错。
+
+```bash
+$ qmake -v
+QMake version 3.0
+Using Qt version 5.7.1 in /opt/Qt5.7.1/5.7/gcc_64/lib
+```
+
+看你的 qmake 是否正确。我用的官方的 run 文件安装了 qt5，需要自己加一下 PATH。
+
+[![Build Status](https://travis-ci.org/shadowsocks/shadowsocks-qt5.svg?branch=master)](https://travis-ci.org/shadowsocks/shadowsocks-qt5)
+
 Please check [project's wiki](https://github.com/shadowsocks/shadowsocks-qt5/wiki) for "how-tos".
 
 Introduction
